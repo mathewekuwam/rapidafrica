@@ -1,0 +1,138 @@
+<div class="logy-register-shortcode">
+
+
+
+<div class="logy logy-page-box yz-page">
+	
+	<div class="logy-form logy-signup-page logy-with-header logy-with-labels logy-no-icons logy-full-border logy-border-flat">
+	
+	
+    	<header class="logy-form-header">
+	    		    		<div class="logy-form-cover logy-custom-cover" style="background-image: url( https://user.pesabrands.com/wp-content/uploads/2020/06/big-data.jpg )">
+			        <h2 class="form-cover-title">Sign Up</h2>
+	    		</div>
+	    	    	</header>
+
+	    			
+		<!-- 
+		< ?php if ( count( $attrs['errors'] ) > 0 )  : ?>
+			<div class="logy-form-message logy-error-msg">
+				< ?php foreach ( $attrs['errors'] as $error_msg ) : ?>
+					<p><strong>< ?php _e( 'ERROR', 'youzer' ); ?> !</strong>< ?php echo $error_msg; ?></p>
+				< ?php endforeach; ?>
+			</div>
+		< ?php endif; ?>
+ -->
+		
+		
+		
+		
+	
+	<div class="page" id="register-page">
+
+		
+
+		
+		<form action="https://user.pesabrands.com/register/" name="signup_form" id="logy_signup_form" class="standard-form" method="post" enctype="multipart/form-data">
+
+		
+			<div id="template-notices" role="alert" aria-atomic="true">
+				
+			</div>
+
+			
+			<div class="register-section" id="basic-details-section">
+
+				
+				<div class="logy-section-title">
+					<span>Account Details</span>
+				</div>
+
+				<label for="signup_username">Username <span class="bp-required-field-label">required</span></label>
+								<input type="text" name="signup_username" id="signup_username" value=""  autocomplete="off" autocapitalize="none"/>
+
+				<label for="signup_email">Email Address <span class="bp-required-field-label">required</span></label>
+								<input type="email" name="signup_email" id="signup_email" value="" />
+
+				<label for="signup_password">Choose a Password <span class="bp-required-field-label">required</span></label>
+								<input type="password" name="signup_password" id="signup_password" value="" class="password-entry"  spellcheck="false" autocomplete="off"/>
+				<div id="pass-strength-result"></div>
+
+				<label for="signup_password_confirm">Confirm Password <span class="bp-required-field-label">required</span></label>
+								<input type="password" name="signup_password_confirm" id="signup_password_confirm" value="" class="password-entry-confirm"  spellcheck="false" autocomplete="off"/>
+
+				
+			</div><!-- #basic-details-section -->
+
+			
+			
+			
+				
+				<div class="register-section" id="profile-details-section">
+
+					<div class="logy-section-title">
+						<span>Profile Details</span>
+					</div>
+
+										
+					
+						<div class="editfield field_1 field_name required-field visibility-public field_type_textbox">
+							<fieldset>
+
+							
+		<legend id="field_1-1">
+			Name			 <span class="bp-required-field-label">required</span>		</legend>
+
+		
+		<input  id="field_1" name="field_1" type="text" value="" aria-required="true" required aria-labelledby="field_1-1" aria-describedby="field_1-3">
+
+		
+										<p class="field-visibility-settings-notoggle" id="field-visibility-settings-toggle-1">
+									This field can be seen by: <span class="current-visibility-level">Everyone</span>								</p>
+							
+							
+							</fieldset>
+						</div>
+
+					
+					<input type="hidden" name="signup_profile_field_ids" id="signup_profile_field_ids" value="1" />
+
+					
+					
+				</div><!-- #profile-details-section -->
+
+				
+			
+			
+			
+			
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="c40bbab052" /><input type="hidden" name="_wp_http_referer" value="/wp-json/wp/v2/pages/3607" />
+		
+		
+
+		
+				
+		<div class="logy-form-actions logy-halfwidth-button logy-border-rounded">				<div class="logy-action-item logy-submit-item">
+					<div class="logy-item-inner">
+	           			<button type="submit" value="submit"  name="signup_submit"  >
+	            				           				<span class="logy-button-title">Sign Up</span>
+	           			</button>
+	            	</div>
+	            </div>
+							<div class="logy-action-item logy-link-item">
+					<div class="logy-item-inner">
+	            		<a href="https://user.pesabrands.com/login/" class="logy-link-button" >
+	            				           				Log In	            		</a>
+	            	</div>
+	            </div>
+			</div>		
+				
+		</form>
+
+	</div>
+
+	
+	</div>
+
+</div><!-- .logy-page -->
+</div>{"id":3607,"date":"2020-04-13T07:59:35","date_gmt":"2020-04-13T07:59:35","guid":{"rendered":"https:\/\/user.pesabrands.com\/?page_id=3607"},"modified":"2020-04-13T08:02:04","modified_gmt":"2020-04-13T08:02:04","slug":"register","status":"publish","type":"page","link":"https:\/\/user.pesabrands.com\/register\/","title":{"rendered":"Register"},"content":{"rendered":"<pre class=\"hljs json\"><\/pre>\n","protected":false},"excerpt":{"rendered":"","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"template-classic-12-cols-left.php","meta":{"_bbp_topic_count":0,"_bbp_reply_count":0,"_bbp_total_topic_count":0,"_bbp_total_reply_count":0,"_bbp_voice_count":0,"_bbp_anonymous_reply_count":0,"_bbp_topic_count_hidden":0,"_bbp_reply_count_hidden":0,"_bbp_forum_subforum_count":0,"_coblocks_attr":"","_coblocks_dimensions":"","_coblocks_responsive_height":"","_coblocks_accordion_ie_support":"","pmpro_default_level":0},"yoast_head":"<!-- This site is optimized with the Yoast SEO plugin v15.2.1 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Register &bull; Pesabrands Limited<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/user.pesabrands.com\/register\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Register &bull; Pesabrands Limited\" \/>\n<meta property=\"og:url\" content=\"https:\/\/user.pesabrands.com\/register\/\" \/>\n<meta property=\"og:site_name\" content=\"Pesabrands Limited\" \/>\n<meta property=\"article:modified_time\" content=\"2020-04-13T08:02:04+00:00\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\">\n\t<meta name=\"twitter:data1\" content=\"Adminweb\">\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\">\n\t<meta name=\"twitter:data2\" content=\"0 minutes\">\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebSite\",\"@id\":\"https:\/\/user.pesabrands.com\/#website\",\"url\":\"https:\/\/user.pesabrands.com\/\",\"name\":\"Pesabrands Limited\",\"description\":\"Business Intelligence\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https:\/\/user.pesabrands.com\/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https:\/\/user.pesabrands.com\/register\/#webpage\",\"url\":\"https:\/\/user.pesabrands.com\/register\/\",\"name\":\"Register &bull; Pesabrands Limited\",\"isPartOf\":{\"@id\":\"https:\/\/user.pesabrands.com\/#website\"},\"datePublished\":\"2020-04-13T07:59:35+00:00\",\"dateModified\":\"2020-04-13T08:02:04+00:00\",\"breadcrumb\":{\"@id\":\"https:\/\/user.pesabrands.com\/register\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/user.pesabrands.com\/register\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/user.pesabrands.com\/register\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https:\/\/user.pesabrands.com\/\",\"url\":\"https:\/\/user.pesabrands.com\/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https:\/\/user.pesabrands.com\/register\/\",\"url\":\"https:\/\/user.pesabrands.com\/register\/\",\"name\":\"Register\"}}]}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->","_links":{"self":[{"href":"https:\/\/user.pesabrands.com\/wp-json\/wp\/v2\/pages\/3607"}],"collection":[{"href":"https:\/\/user.pesabrands.com\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/user.pesabrands.com\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/user.pesabrands.com\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/user.pesabrands.com\/wp-json\/wp\/v2\/comments?post=3607"}],"version-history":[{"count":1,"href":"https:\/\/user.pesabrands.com\/wp-json\/wp\/v2\/pages\/3607\/revisions"}],"predecessor-version":[{"id":3608,"href":"https:\/\/user.pesabrands.com\/wp-json\/wp\/v2\/pages\/3607\/revisions\/3608"}],"wp:attachment":[{"href":"https:\/\/user.pesabrands.com\/wp-json\/wp\/v2\/media?parent=3607"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
